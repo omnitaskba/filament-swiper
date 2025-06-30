@@ -19,7 +19,7 @@ trait HasScrollbar
         return $this->scrollbar;
     }
 
-    public function scrollbar(bool $scrollbar = true): HasScrollbar
+    public function scrollbar(bool $scrollbar = true)
     {
         $this->scrollbar = $scrollbar;
 
@@ -31,7 +31,7 @@ trait HasScrollbar
         return $this->scrollbarDraggable;
     }
 
-    public function scrollbarDraggable(bool $scrollbarDraggable = true): HasScrollbar
+    public function scrollbarDraggable(bool $scrollbarDraggable = true)
     {
         $this->scrollbarDraggable = $scrollbarDraggable;
 
@@ -43,7 +43,7 @@ trait HasScrollbar
         return $this->scrollbarHide;
     }
 
-    public function scrollbarHide(bool $scrollbarHide = true): HasScrollbar
+    public function scrollbarHide(bool $scrollbarHide = true)
     {
         $this->scrollbarHide = $scrollbarHide;
 
@@ -55,7 +55,7 @@ trait HasScrollbar
         return $this->scrollbarSnapOnRelease;
     }
 
-    public function scrollbarSnapOnRelease(bool $scrollbarSnapOnRelease = true): HasScrollbar
+    public function scrollbarSnapOnRelease(bool $scrollbarSnapOnRelease = true)
     {
         $this->scrollbarSnapOnRelease = $scrollbarSnapOnRelease;
 
@@ -67,7 +67,7 @@ trait HasScrollbar
         return $this->scrollbarDragSize;
     }
 
-    public function scrollbarDragSize(int $scrollbarDragSize): HasScrollbar
+    public function scrollbarDragSize(int $scrollbarDragSize)
     {
         $this->scrollbarDragSize = $scrollbarDragSize;
 
