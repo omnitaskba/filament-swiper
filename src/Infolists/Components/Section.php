@@ -3,16 +3,16 @@
 namespace Rupadana\FilamentSwiper\Infolists\Components;
 
 use Closure;
-use Filament\Schemas\Components\Component;                                                                                                                      
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Concerns\CanBeCollapsed;                                                                                                          
 use Filament\Schemas\Components\Concerns\EntanglesStateWithSingularRelationship;
-use Filament\Support\Concerns\HasDescription;
-use Filament\Support\Concerns\HasExtraAlpineAttributes;
-use Filament\Support\Concerns\HasHeading;
-use Filament\Support\Concerns\HasIcon;
-use Filament\Support\Concerns\HasIconColor;
+use Filament\Schemas\Components\Concerns\HasDescription;                                                                                                          
+use Filament\Support\Concerns\HasExtraAlpineAttributes;                                                                                                           
+use Filament\Schemas\Components\Concerns\HasHeading;
+use Filament\Support\Concerns\HasIcon;                                                                                                                            
+use Filament\Support\Concerns\HasIconColor;                                                                                                                       
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Str;
+use Illuminate\Support\Str;  
 
 class Section extends Component
 {
