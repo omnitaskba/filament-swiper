@@ -156,12 +156,6 @@ class SwiperImageEntry extends ImageEntry
             return null;
         }
 
-        $relationshipName = $this->getRelationshipName();
-
-        if (filled($relationshipName)) {
-            $record = $record->getRelationValue($relationshipName);
-        }
-
         /** @var ?Media $media */
         $media = $record->media->first(fn (Media $media): bool => $media->uuid === $state);
 
