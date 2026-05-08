@@ -5,7 +5,6 @@ namespace Rupadana\FilamentSwiper\Infolists\Components;
 use Closure;
 use Filament\Schemas\Components\Component;                                                                                                                      
 use Filament\Schemas\Components\Concerns\CanBeCollapsed;                                                                                                          
-use Filament\Schemas\Components\Concerns\CanBeCompacted;                                                                                                        
 use Filament\Schemas\Components\Concerns\EntanglesStateWithSingularRelationship;
 use Filament\Support\Concerns\HasDescription;
 use Filament\Support\Concerns\HasExtraAlpineAttributes;
@@ -18,7 +17,6 @@ use Illuminate\Support\Str;
 class Section extends Component
 {
     use CanBeCollapsed;
-    use CanBeCompacted;
     use EntanglesStateWithSingularRelationship;
     use HasDescription;
     use HasExtraAlpineAttributes;
