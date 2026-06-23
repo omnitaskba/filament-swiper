@@ -2,7 +2,7 @@
 
 namespace Rupadana\FilamentSwiper\Infolists\Components\Concerns;
 
-use Rupadana\FilamentSwiper\Infolists\Components\Swiper;
+use Rupadana\FilamentSwiper\Infolists\Components\SwiperConstants;
 
 trait HasEffect
 {
@@ -29,7 +29,7 @@ trait HasEffect
         return $this->effect;
     }
 
-    public function effect(string $effect = Swiper::FADE_EFFECT): HasEffect
+    public function effect(string $effect = SwiperConstants::FADE_EFFECT): HasEffect
     {
         $this->effect = $effect;
 
